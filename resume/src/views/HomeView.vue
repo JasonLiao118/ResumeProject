@@ -1,13 +1,7 @@
 <template>
-  <div>
-
-  </div>
+  <div class="new-container"></div>
 </template>
 
-<script setup>
+<script></script>
 
-</script>
-
-<style lang="scss" scoped>
-
-</style>
+<style></style>
