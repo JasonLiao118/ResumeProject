@@ -54,7 +54,6 @@ export default {
   position: relative;
   overflow-y: scroll;
   height: 94vh;
-  background-color: var(--grey);
 }
 
 .section-item :hover {
@@ -65,9 +64,7 @@ export default {
   width: 80%;
   max-height: 60rem;
   background-color: rgb(255, 255, 255);
-  border: rgb(0, 0, 0) 0.5rem solid;
   text-align: center;
-  box-shadow: 0 1.5rem 4rem rgb(0, 0, 0);
   margin-top: 8rem;
   border-radius: 5rem;
   margin-left: 5rem;
@@ -83,8 +80,7 @@ export default {
 
 .sub-title {
   font-size: 8rem;
-  color: white;
-  background-color: rgb(136, 128, 128);
+  color: black;
   position: relative;
   width: 25vw;
 }

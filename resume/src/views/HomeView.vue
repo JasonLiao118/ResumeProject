@@ -1,8 +1,7 @@
 <template>
   <div class="new-container">
     <h1 class="main-title">Jason Liao</h1>
-    <!-- <h2>About Me</h2>
-    <p></p> -->
+
     <SectionOne class="section1" />
     <SectionTwo />
   </div>
