@@ -27,11 +27,13 @@ export default {
 .bottom-section {
   margin-top: 10rem;
   display: inline-block;
+  color: white;
 }
 
 .bottom-list {
   font-size: var(--h4);
   text-align: left;
+  color: white;
 }
 
 .img {

@@ -61,17 +61,17 @@ export default {
 }
 
 .section-item :hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .section-item {
   width: 80%;
   max-height: 60rem;
-  background-color: rgb(255, 255, 255);
   text-align: center;
   margin-top: 8rem;
   border-radius: 5rem;
   margin-left: 5rem;
+  color: white;
 }
 
 .list-item {
@@ -80,11 +80,12 @@ export default {
   margin-right: 3rem;
   margin-top: 2rem;
   margin-bottom: 3rem;
+  color: white;
 }
 
 .sub-title {
   font-size: 5rem;
-  color: black;
+  color: white;
   position: relative;
   width: 25vw;
   display: flex;

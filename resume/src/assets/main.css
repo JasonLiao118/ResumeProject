@@ -5,6 +5,7 @@ body,
   font-size: 10px;
   margin: 0px;
   padding: 0px;
+  background-color: #000;
 }
 
 :root {
@@ -56,23 +57,27 @@ body,
 
 h1 {
   font-size: var(--h1);
+  color: white;
 }
 
 h2 {
   font-size: var(--h2);
+  color: white;
 }
 
 h3 {
   font-size: var(--h3);
+  color: white;
 }
 
 h4 {
   font-size: var(--h4);
-  color: black;
+  color: white;
 }
 
 h5 {
   font-size: var(--h5);
+  color: white;
 }
 
 h1,
@@ -84,42 +89,41 @@ h5 {
 }
 
 .container {
-    max-width: 960px;
-    margin: 0 auto;
-  }
-  
-  /* navbar */
-  nav {
-    display: flex;
-    align-items: center;
-  }
-  
-  nav h1 {
-    margin-right: auto;
-  }
-  
-  nav a,
-  nav button,
-  nav span {
-    margin-left: 20px;
-  }
-  
-  nav a {
-    color: #444;
-    text-decoration: none;
-    font-weight: bold;
-  }
-  
-  nav span {
-    color: #777;
-  }
-  
-  button {
-    background: #00dba4;
-    border: 0;
-    padding: 6px 10px;
-    border-radius: 20px;
-    color: #fff;
-    cursor: pointer;
-  }
-  
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* navbar */
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav h1 {
+  margin-right: auto;
+}
+
+nav a,
+nav button,
+nav span {
+  margin-left: 20px;
+}
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav span {
+  color: #777;
+}
+
+button {
+  background: #00dba4;
+  border: 0;
+  padding: 6px 10px;
+  border-radius: 20px;
+  color: #fff;
+  cursor: pointer;
+}
