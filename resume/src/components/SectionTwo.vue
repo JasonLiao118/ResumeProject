@@ -47,13 +47,17 @@ export default {
 .main-section {
   flex-wrap: wrap;
   display: block;
-  width: 25vw;
+  width: 20vw;
   justify-content: center;
   align-content: center;
   align-items: center;
   position: relative;
   overflow-y: scroll;
   height: 94vh;
+}
+
+.main-section::-webkit-scrollbar {
+  display: none;
 }
 
 .section-item :hover {
@@ -79,10 +83,11 @@ export default {
 }
 
 .sub-title {
-  font-size: 8rem;
+  font-size: 5rem;
   color: black;
   position: relative;
   width: 25vw;
+  display: flex;
 }
 
 .secondary-title {

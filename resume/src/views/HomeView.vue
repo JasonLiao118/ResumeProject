@@ -1,7 +1,5 @@
 <template>
   <div class="new-container">
-    <h1 class="main-title">Jason Liao</h1>
-
     <SectionOne class="section1" />
     <SectionTwo />
   </div>
@@ -22,8 +20,6 @@ export default {
 
 <style>
 .main-title {
-  position: absolute;
-  left: 40%;
   color: black;
 }
 
@@ -32,14 +28,8 @@ export default {
   right: 0%;
 }
 
-/* .main-content {
-  position: absolute;
-  left: 50%;
-  width: 50vw;
-  align-content: center;
-  align-items: center;
-  align-self: center;
-  justify-content: center;
-  z-index: 1;
-} */
+.new-container {
+  display: flex;
+  height: 98vh;
+}
 </style>

@@ -1,6 +1,6 @@
 <template>
   <div class="main-section">
-    <h1 class="sub-title">Skills and Awards</h1>
+    <h1 class="sub-title">Skills/ Awards</h1>
     <div class="section-item">
       <h3 class="secondary-title">
         Silver Medal ACTR National Russian Essay Contest
