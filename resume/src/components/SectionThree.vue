@@ -38,5 +38,7 @@ export default {
 
 .img {
   width: 30rem;
+  background-color: white;
+  border-radius: 5rem;
 }
 </style>
